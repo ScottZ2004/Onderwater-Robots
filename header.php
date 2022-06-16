@@ -7,10 +7,9 @@
 </head>
 <body <?php body_class(); ?>>
 <header class="site-header">
-    <?php
-    wp_nav_menu( array( 'theme_location' => 'header-menu' ) );
-    ?>
-        <div class="header-foto"></div>
+     <div class="header-foto">
+        <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
+    </div>
         
     
 </header>

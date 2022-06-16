@@ -1,95 +1,47 @@
-html{
-    margin: 0px!important;
-
-}
-
-body {
-    background: #EFC4CF;
+body{
+    padding: 0;
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
-    height: 80vh;
-    
+    font-family: 'Montserrat', sans-serif;
 }
 
-.header-foto{
-    height: 87.7vh;
-    background-image: url(../Images/Placeholder-addenergy-klein.png);
-    background-repeat: no-repeat;
+#header-foto{
+    /* background-image: url("../Images/BG-aruna.png"); */
+    /* min-height: 100%;
     background-position: center;
-    opacity: 0.5;
-    background-size: auto;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    display: flexbox;
+    align-items: baseline;
 }
 
-#quote1{
-    width: 98%;
-    background-color: #E57996;
-    margin: 0;
-    padding: 1%;
-    margin-bottom: 5%;
-    font-size: 3vw;
+.wp-block-navigation__container{
+    display: flex;
+    justify-content: space-evenly;
 }
-
-a{
-    text-decoration: none;
-    color: white;
+.Video-aruna{
+    display: flex;
+    justify-content: center;
 
 }
 
 a:hover{
     transition: 0.5s;
-    color: #6CD8E0;
+    color: #33e7ff;
     
 }
 
-/* Heel menu */
 .menu{
-    background-color: #E57996;
+    /* background-color: rgb(0, 0, 0); */
     width: 100%;
+   
 }
 
-/* ul items */
-ul { 
+#menu-hoofdmenu{ 
     padding: 1.5%;
     margin: 0;
     display: flex;
-    justify-content: right; 
+    justify-content: space-evenly; 
     font-size: larger;
-}
-
-/* individuele menu items */
-.page_item{
     list-style: none;
-    padding-left: 12%;
 }
 
-#perspectief-foto{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 75%;
-}
-
-/* Media query small screen (moet alleen nog een dropdown bij) */
-
-@media only screen and (max-width: 835px){
-    ul{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 5%;
-    }
-}
-
-@media only screen and (max-width: 1000px){
-    ul{
-        font-size: medium;
-    }
-}
-
-
-#ons-aanbod{
-    background-color: #FFF7F3;
-    border: solid 5px #5C374C;
-    border-radius: 25%;
-    font-size: 4vw;
-}
