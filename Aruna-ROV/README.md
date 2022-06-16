@@ -1,8 +1,3 @@
-# Add-energy
+# Onderwater-Robots 
 
-- Scott van den Broek
-- Ties Hogenboom
-- Pawel Kellner
-- Thies van der Zon
-
-[Trello](https://trello.com/b/yfcmdVdI/add-energy)
+### By: Joeri Breedveld, Scott van den Broek, Pawel Kellner en Thies van der Zon
