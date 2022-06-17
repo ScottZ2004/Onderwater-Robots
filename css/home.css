@@ -12,36 +12,6 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
-.titel, .naam{
-    color: white !important;
-    top: 200px;
-    
-}
-.titel{
-    font-size: 4vw;
-}
-.naam{
-    font-size: 2vw;
-}
-
-.Aruna-video{
-   display: flex;
-   justify-content: center;
-   top: -40%;
-}
-
-.img-container{
-    margin: 0; 
-    /* opacity: 0.4; */
-}
-.wp-container-4{
-    /* margin-top: 20%; */
-    padding: 0;
-}
-
-.wp-block-cover__inner-container{
-   
-}
 
 
 a{
@@ -70,7 +40,61 @@ a:hover{
     list-style: none;
 }
 
-.arrow{
-    font-size: 60px; 
+
+
+
+
+.titel, .naam{
+    color: white !important;
+    
+    
+}
+.titel{
+    font-size: 4vw;
+}
+.naam{
+    font-size: 2vw;
+}
+
+
+
+
+.Aruna-video{
+   display: flex;
+   justify-content: center;
+   top: -40%;
+}
+
+.img-container{
+    margin: 0; 
+    /* opacity: 0.4; */
+}
+.wp-container-4{
+    /* margin-top: 20%; */
+    padding: 0;
+}
+
+.wp-block-cover__inner-container{
+   
+}
+
+
+
+
+
+.product-titel, .product-uitleg{ 
+    color: white !important;
+    width: 50%;
+    margin-left: 4%;
+    
+}
+
+.product-titel{
+    font-size: 2.5vw;
+    margin-top: 4%;
+}
+
+.wp-image-178{
+    /* margin-top: -20%; */
 
 }
