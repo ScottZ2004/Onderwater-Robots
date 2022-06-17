@@ -1,27 +1,48 @@
+html{
+    background-image: url("../Images/BG-aruna.png");
+    min-height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 body{
     padding: 0;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
 }
 
-#header-foto{
-    /* background-image: url("../Images/BG-aruna.png"); */
-    /* min-height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
-    display: flexbox;
-    align-items: baseline;
+.titel, .naam{
+    color: white !important;
+    top: 200px;
+    
 }
 
-.wp-block-navigation__container{
-    display: flex;
-    justify-content: space-evenly;
+.Aruna-video{
+   display: flex;
+   justify-content: center;
+   top: -40%;
 }
-.Video-aruna{
-    display: flex;
-    justify-content: center;
 
+.img-container{
+    margin: 0; 
+    /* opacity: 0.4; */
+}
+.wp-container-4{
+    /* margin-top: 20%; */
+  
+    padding: 0;
+}
+
+.wp-block-cover__inner-container{
+   
+    
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
 }
 
 a:hover{
@@ -45,3 +66,7 @@ a:hover{
     list-style: none;
 }
 
+.arrow{
+    font-size: 60px; 
+
+}

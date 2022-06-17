@@ -1,5 +1,5 @@
 <?php
-
+get_header();
 ?>
 
 <?php
@@ -8,10 +8,7 @@ if ( have_posts() ) :
 
         <!-- <h2><?php the_title() ?></h2> -->
 
-        <?php the_content();
-            get_header();
-        ?>
-
+        <?php the_content();   ?>
     <?php endwhile;
 
 else :
