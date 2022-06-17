@@ -17,6 +17,12 @@ body{
     top: 200px;
     
 }
+.titel{
+    font-size: 4vw;
+}
+.naam{
+    font-size: 2vw;
+}
 
 .Aruna-video{
    display: flex;
@@ -30,13 +36,11 @@ body{
 }
 .wp-container-4{
     /* margin-top: 20%; */
-  
     padding: 0;
 }
 
 .wp-block-cover__inner-container{
    
-    
 }
 
 
