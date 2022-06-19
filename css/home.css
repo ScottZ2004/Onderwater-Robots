@@ -13,7 +13,6 @@ body{
 }
 
 
-
 a{
     text-decoration: none;
     color: white;
@@ -40,10 +39,6 @@ a:hover{
     list-style: none;
 }
 
-
-
-
-
 .titel, .naam{
     color: white !important;
     
@@ -65,24 +60,10 @@ a:hover{
    top: -40%;
 }
 
-.img-container{
-    margin: 0; 
-    /* opacity: 0.4; */
-}
-.wp-container-4{
-    /* margin-top: 20%; */
-    padding: 0;
-}
-
-.wp-block-cover__inner-container{
-   
-}
 
 
 
-
-
-.product-titel, .product-uitleg{ 
+/* .product-titel, .product-uitleg{ 
     color: white !important;
     width: 50%;
     margin-left: 4%;
@@ -92,9 +73,29 @@ a:hover{
 .product-titel{
     font-size: 2.5vw;
     margin-top: 4%;
+} */
+
+.images-robot{
+    margin: 25px;
 }
 
-.wp-image-178{
-    /* margin-top: -20%; */
-
+.Product-colom{
+    margin: 25px;
 }
+
+.Product-image{
+    display: flex;
+    justify-content: right;
+}
+
+.Product-tekst,.Product-titel{
+    padding: 0px!important;
+    background-color: unset!important;
+}
+
+.wp-block-image{
+    margin: 0px;
+}
+
+
+

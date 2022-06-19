@@ -8,7 +8,9 @@ if ( have_posts() ) :
 
         <!-- <h2><?php the_title() ?></h2> -->
 
-        <?php the_content();   ?>
+        <?php the_content();   
+            
+        ?>
     <?php endwhile;
 
 else :
@@ -16,6 +18,14 @@ else :
 
 endif;
 ?>
+
+
+<!-- <div class="product-bg">
+    
+</div> -->
+
+
+
 <?php
 get_footer();
 ?>
