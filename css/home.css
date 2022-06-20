@@ -46,6 +46,7 @@ a:hover{
 }
 .titel{
     font-size: 4vw;
+    margin-top: 12%;
 }
 .naam{
     font-size: 2vw;
@@ -57,10 +58,12 @@ a:hover{
 .Aruna-video{
    display: flex;
    justify-content: center;
-   top: -40%;
+   margin-top: 45vh;
 }
 
-
+.arrow{
+    margin-top: 100px;
+}
 
 
 /* .product-titel, .product-uitleg{ 
@@ -95,6 +98,14 @@ a:hover{
 
 .wp-block-image{
     margin: 0px;
+}
+
+.Images-cover{
+    margin-top: 15vh;
+}
+
+.product-cover{
+    margin-top: 15vh;
 }
 
 
