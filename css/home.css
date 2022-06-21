@@ -31,8 +31,7 @@ a:hover{
 }
 
 #menu-hoofdmenu{ 
-    padding: 1.5%;
-    margin: 0;
+    padding: 3.5%; 
     display: flex;
     justify-content: space-evenly; 
     font-size: larger;
@@ -46,41 +45,32 @@ a:hover{
 }
 .titel{
     font-size: 4vw;
-    margin-top: 12%;
+    margin-top: 5%;
 }
 .naam{
     font-size: 2vw;
 }
 
-
-
-
 .Aruna-video{
    display: flex;
    justify-content: center;
-   margin-top: 45vh;
+   margin-top: 15vh;
+
 }
 
 .arrow{
     margin-top: 100px;
 }
 
-
-/* .product-titel, .product-uitleg{ 
-    color: white !important;
-    width: 50%;
-    margin-left: 4%;
-    
-}
-
-.product-titel{
-    font-size: 2.5vw;
-    margin-top: 4%;
-} */
-
 .images-robot{
     margin: 25px;
+    margin-right: 0px!important;
+
 }
+
+/* .wp-block-image{
+    margin-right: 0px;
+} */
 
 .Product-colom{
     margin: 25px;
@@ -96,17 +86,76 @@ a:hover{
     background-color: unset!important;
 }
 
-.wp-block-image{
-    margin: 0px;
-}
+
 
 .Images-cover{
     margin-top: 15vh;
+
 }
 
 .product-cover{
     margin-top: 15vh;
 }
 
+.links-flex-div {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+#menu-footer-menu, #menu-socials {
+    list-style: none;
+    padding: 0;
+}
+
+.social-links, .nav-links {
+    color: white;
+
+}
+
+.social-links {
+    padding-left: 20vh;
+}
 
 
+
+footer {
+    /* background: rgba(135, 135, 135, 0.9);
+    backdrop-filter: blur(10px);
+    backdrop-filter: brightness(10%);
+    backdrop-filter: opacity(0%); */
+    margin-top: 8%;
+    padding: 50px;
+}
+
+.footer-text-one {
+    margin-top: 0;
+    color: white;
+}
+
+.wp-block-separator {
+    color: white;
+}
+
+.footer-area-five {
+    color: white;
+}
+
+li.menu-item {
+    padding-bottom: 10px;
+}
+
+.madeby-div {
+    padding-top: 25px;
+}
+
+@media only screen and (min-width: 2000px){
+    .product-tekst{
+       margin-left: 8%!important; 
+    }
+    .Product-image{
+        margin-right: 16%;
+    }
+   
+
+    
+}
