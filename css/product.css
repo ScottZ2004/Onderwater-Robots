@@ -4,13 +4,40 @@
 }
 
 .product__cover {
-    padding: 5vh 10vw;
-    margin-bottom: 3.2rem;
+    /* padding: 5vh 10vw; */
+    /* margin-bottom: 3.2rem; */
+    margin-top: 16vh;
     display: flex;
     gap: 3.2rem;
 }
 
 .product__title {
-    padding: 0vh 10vw;
+    padding: 0vh 2vw;
     color: white;
+    
+}
+
+
+
+.wp-block-cover-image.is-light .wp-block-cover__inner-container, 
+.wp-block-cover.is-light .wp-block-cover__inner-container{
+    width: 70%;
+    padding: 1%;
+}
+
+
+@media only screen and (min-width: 1820px){
+    .wp-container-4{
+    gap: 10em!important;
+}
+
+}
+
+@media only screen and (max-width: 500px){
+    .wp-block-cover-image.is-light .wp-block-cover__inner-container, 
+    .wp-block-cover.is-light .wp-block-cover__inner-container{
+    width: 100%;
+    padding: 1%;
+}
+
 }

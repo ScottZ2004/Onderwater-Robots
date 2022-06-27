@@ -4,6 +4,7 @@ html{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
 body{
@@ -40,23 +41,22 @@ a:hover{
 
 .titel, .naam{
     color: white !important;
-    
+    font-size: 8vmin!important;
     
 }
 .titel{
-    font-size: 4vw;
+    /* font-size: 10vh; */
     margin-top: 5%;
 }
-.naam{
-    font-size: 2vw;
-}
+
 
 .Aruna-video{
    display: flex;
    justify-content: center;
    margin-top: 15vh;
-
 }
+
+
 
 .arrow{
     margin-top: 100px;
@@ -68,9 +68,7 @@ a:hover{
 
 }
 
-/* .wp-block-image{
-    margin-right: 0px;
-} */
+
 
 .Product-colom{
     margin: 25px;
@@ -117,12 +115,7 @@ a:hover{
 }
 
 
-
 footer {
-    /* background: rgba(135, 135, 135, 0.9);
-    backdrop-filter: blur(10px);
-    backdrop-filter: brightness(10%);
-    backdrop-filter: opacity(0%); */
     margin-top: 8%;
     padding: 50px;
 }
@@ -148,6 +141,7 @@ li.menu-item {
     padding-top: 25px;
 }
 
+
 @media only screen and (min-width: 2000px){
     .product-tekst{
        margin-left: 8%!important; 
@@ -155,7 +149,4 @@ li.menu-item {
     .Product-image{
         margin-right: 16%;
     }
-   
-
-    
 }
