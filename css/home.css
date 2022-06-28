@@ -50,12 +50,13 @@ a:hover{
 }
 
 
-.Aruna-video{
-   display: flex;
-   justify-content: center;
-   margin-top: 15vh;
-}
-
+.Aruna-video-test{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15vh;
+    
+ }
 
 
 .arrow{
@@ -149,4 +150,21 @@ li.menu-item {
     .Product-image{
         margin-right: 16%;
     }
+    
+}
+
+@media only screen and (max-width: 1800px){
+    .Aruna-video-test{
+        width: 550px;
+        height: 360px;
+        
+     }
+}
+
+@media only screen and (max-width: 700px){
+    .Aruna-video-test{
+        width: 350px;
+        height: 260px;
+        
+     }
 }
