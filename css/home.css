@@ -39,11 +39,17 @@ a:hover{
     list-style: none;
 }
 
-.titel, .naam{
+.titel{
     color: white !important;
     font-size: 8vmin!important;
     
 }
+
+.naam{
+    color: white !important;
+    font-size: 5vmin!important;
+}
+
 .titel{
     /* font-size: 10vh; */
     margin-top: 5%;
