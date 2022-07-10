@@ -9,6 +9,10 @@
 </head>
 
 <body <?php body_class(); ?>>
+<!--      TODO absolulte positie plaatje-->
+<section id="mysection"> </section>
+    <img class="achtergrond header-achtergrond" src="/wp-content/themes/Onderwater-Robots/Images/bovenkant.jpg">
+    <img class="achtergrond footer-achtergrond" src="/wp-content/themes/Onderwater-Robots/Images/onderkant.jpg">
     <header class="site-header">
         <div class="header-foto">
             <?php wp_nav_menu(array('theme_location' => 'header-menu')); ?>

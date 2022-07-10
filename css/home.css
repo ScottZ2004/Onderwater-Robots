@@ -1,5 +1,5 @@
 html{
-    background-image: url("../Images/cristian-palmer-XexawgzYOBc-unsplash.jpg");
+    background-color: #001c2a;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -11,6 +11,9 @@ body{
     padding: 0;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+    position: relative;
+    top: -20px;
+/*    TODO -20px is een crude fix*/
 }
 
 
@@ -31,6 +34,18 @@ a:hover{
    
 }
 
+.achtergrond {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    pointer-events: none;
+}
+.header-achtergrond {
+    top: 0;
+}
+.footer-achtergrond {
+    bottom: 0;
+}
 #menu-hoofdmenu{ 
     padding: 3.5%; 
     display: flex;
